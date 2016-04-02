@@ -37,6 +37,7 @@ public class MenuScript : MonoBehaviour {
 
     public void ExitGame()
     {
+        Debug.Log("Exit Game Pressed");
         Application.Quit();
     }
 
